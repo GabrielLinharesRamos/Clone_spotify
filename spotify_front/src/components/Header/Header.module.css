@@ -1,0 +1,44 @@
+
+
+.header{
+    background: linear-gradient(to right,black,#1db954);
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    border-bottom: #1db954 1px solid;
+    
+}
+
+.logo{
+    color: #1db954;
+    margin-top: 5px;
+    float: left;
+    margin-left: 5%;
+    display: flex;
+}
+
+
+.logo_foto{
+    border-radius: 80%;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.menu{
+    margin-top: 15px;
+    color: white;
+    float: right;
+    margin-right: 5%;
+}
+
+.elementoMenu{
+    margin: 0px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.elementoMenu:hover{
+    transition: 0.5s;
+    color: black;
+}

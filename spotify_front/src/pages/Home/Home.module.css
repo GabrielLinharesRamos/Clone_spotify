@@ -1,0 +1,33 @@
+.conteudo_principal{
+    margin-bottom: -4px;
+}
+
+.imagem_central{
+    width: 100%;
+    object-fit: cover; 
+    object-position: center; 
+    height: 95vh;
+}
+
+.botao_imagem{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    color: black;
+    background: #1db954;
+    padding: 15px 60px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    
+}
+
+.botao_imagem:hover{
+    color: #1db954;
+    background-color: black;
+    border:1px solid #1db954;
+    padding: 15px 60px;
+}

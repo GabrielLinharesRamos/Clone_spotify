@@ -1,0 +1,62 @@
+.containerEsquerdo{
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    background-color: black;
+    color: white;
+    border-right: 1px solid #1db954;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    color: #1db954;
+    margin-top: 10px;
+    float: left;
+    margin-left: 5%;
+    display: flex;
+}
+
+
+.logo_foto{
+    border-radius: 80%;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.primeiraSessao{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link{
+    text-decoration: none;
+    margin:10px;
+    color: #1db954cb;
+    cursor: pointer;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.link:hover{
+    margin:10px;
+    color: #1db954;
+}
+
+
+
+.segundaSessao{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.segundaSessao h4{
+    margin: 10px;
+}

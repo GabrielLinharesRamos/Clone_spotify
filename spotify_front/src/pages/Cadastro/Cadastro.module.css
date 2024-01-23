@@ -1,0 +1,119 @@
+.conteudo_principal{
+    padding-top: 50px;
+    margin: 0 auto;
+    background: linear-gradient(gray,black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95vh;
+}
+
+.texto_container{
+    margin-top: 15px;
+
+}
+
+.subtexto_container{
+    margin-bottom: 15px;
+    width: 100%;
+    border-bottom: gray 1px solid;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.container{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 100px 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 92.4vh;
+    box-sizing: border-box;
+}
+
+.textBox{
+    box-sizing: border-box;
+    background-color: black;
+    border: 1px solid gray;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 60%;
+    color: white;
+}
+
+.nome_user{
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.half_textBox{
+    box-sizing: border-box;
+    background-color: black;
+    border: 1px solid gray;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 28%;
+    color: white;
+    margin: 10px;
+    
+}
+
+.half_textBox:nth-child(1){
+    margin-right: 2%;
+    
+}
+
+.half_textBox:nth-child(2){
+    margin-left: 2%;
+    
+}
+
+.botao{
+    box-sizing: border-box;
+    width: 60%;
+    color: black;
+    background-color: #1db954;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    margin: 25px 0;
+    cursor: pointer;
+
+}
+
+.botao:hover{
+    color: #1db954;
+    background-color: black;
+    border:1px solid #1db954;
+    box-sizing: border-box;
+    padding: 14px;
+}
+
+.registre_se{
+    text-decoration: underline;
+    border-top: 1px solid gray;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.registre_se:hover{
+    transition: 0.5s;
+    color: #1db954;
+}

@@ -1,0 +1,73 @@
+.body{
+    background-color: black;
+    height: 100vh;
+    color: white;
+    padding: 60px;
+    padding-left: 250px;
+    background: linear-gradient(#1db954,black);
+}
+
+.container{
+    box-sizing: border-box;
+    margin:0 70px 40px 70px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 45px;
+    border: 1px solid #1db954;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.tituloSessao{
+    font-size: 17px;
+}
+
+.sexo{
+    margin: 5px 0;
+    
+}
+
+.label{
+    color: rgba(255, 255, 255, 0.623);
+}
+
+.textBox{
+    border: none;
+    background-color: black;
+    border-bottom: 1px solid gray;
+    color: white;
+    padding: 5px 10px;
+    margin-bottom:15px;
+    outline: none;
+    width: 240px;
+}
+
+.botao{
+    background: #1db954;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 15px 60px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.botao:hover{
+    background-color: black;
+    color: #1db954;
+    border: 1px solid #1db954;
+    padding: 14px 59px;
+}
+
+.fotoAvatar{
+    border-radius: 80%;
+    width: 230px;
+    margin-left: 170px;
+    margin-top: 15px;
+}

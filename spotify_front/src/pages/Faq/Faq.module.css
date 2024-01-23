@@ -1,0 +1,39 @@
+.conteudo_principal{
+    padding: 60px;
+    background: url("../../imagens-utilizadas/music-vinyl-simple-background-minimalism-wallpaper-preview.jpg") no-repeat center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-size: cover;
+    object-fit: cover; 
+    object-position: center; 
+    height: 95vh;
+}
+
+.container{
+   box-sizing: border-box;
+   margin-top: 30px;
+   width: 760px;
+   border: gray 1px solid;
+   color: white;
+   padding:10px 100px 0 100px;
+   height: 72.5vh;
+   display: flex;
+   flex-direction: column;
+   background-color: black;
+}
+
+.container p{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.pergunta{
+    width: 100%;
+    border: 1px solid gray;
+    margin-bottom: 25px;
+    font-size: 17px;
+    padding: 10px;
+}
